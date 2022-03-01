@@ -1,0 +1,106 @@
+body {
+	background-color: rgb(232, 230, 235);
+	color: rgb(30, 30, 30);
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: lighter;
+	letter-spacing: 3px;
+	font-size: 17px;
+
+}
+
+h1 {
+	color: #7494EA;
+	font-family: 'Roboto 700', sans-serif;
+	font-weight: bold;
+	letter-spacing: 6px;
+	font-size: 30px;
+}
+
+h2, h3, h4, {
+	color: rgb(15, 15, 15);
+	font-family: 'Roboto', sans-serif;
+	font-weight: bolder;
+	letter-spacing: 5px;
+	font-size: 22px;
+}
+
+.logo {
+	border-radius: 50%;
+}
+
+a {
+	text-decoration: none;
+	font-weight: bolder;
+	font-family: 'Roboto 700', sans-serif;
+}
+
+#link {
+	color:  black;
+	font-size: 50px;
+}
+
+#link:hover {
+	color: #7494EA;
+	transition: color 0.3s ease;
+}
+
+
+
+
+/* custom design with class */
+
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+
+@media (max-width: 900px) {
+	.container {
+		width: 700px;
+	}
+}
+
+@media (max-width: 700px) {
+	.container {
+		width: 500px;
+	}
+}
+
+@media (max-width: 550px) {
+	.container {
+		width: 300px;
+	}
+}
+
+.card-white {
+	background-color: white;
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+	margin: 30px 0px;
+	text-align: center;
+}
+
+
+.btn-blue {
+	background-color: #7494EA;
+	padding: 10px;
+	border-radius: 5px;
+	color: white;
+	margin: 10px;
+}
+
+.btn-blue:hover {
+	background-color: black;
+	transition: background-color 0.3s ease;
+}
+
+.list-inline {
+	list-style: none;
+	padding: 0;
+}
+.list-inline li {
+	display: inline;
+	padding: 15px;
+}
+
